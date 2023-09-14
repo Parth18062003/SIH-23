@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Sidebar from './Sidebar';
 import CustomTable from './CustomTable';
 import { ToastContainer } from 'react-toastify';
+import './Dashboard.css'
 
 function Dashboard() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
