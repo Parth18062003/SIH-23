@@ -9,7 +9,7 @@ import ReactPaginate from 'react-paginate';
 const departmentOptions = [
   { value: 'Central Public Works Department (CPWD)', label: 'Central Public Works Department (CPWD)', subDepartments: ['NBCC (India) Limited', 'Housing and Urban Development Corporation Limited', 'National Capital Region Transport Corporation'] },
   { value: 'Directorate of Estates', label: 'Directorate of Estates', subDepartments: ['d', 'e', 'f'] },
-  { value: 'Department 3', label: 'Department 3', subDepartments: ['x', 'y', 'z'] },
+  { value: 'Land & Development Office', label: 'Land & Development Office', subDepartments: ['x', 'y', 'z'] },
 ];
 
 function CustomTable({ isSidebarVisible, selectedDepartment}) {
