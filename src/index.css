@@ -1,0 +1,94 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Set your desired width */
+    height: 100vh;
+    background-color: #159dff; /* Set your desired background color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar.hidden {
+    width: 0;
+    display: none;
+  }
+  
+  .app.full-width {
+    margin-left: 0;
+  }
+
+  table thead {
+    font-size: 21px;
+  }
+
+  table.table td {
+    vertical-align: middle;
+  }
+
+  .user-table-header {
+    height: 10%;
+    margin: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .user-table-header button {
+    color: rgb(243, 243, 243);
+    background-color: rgb(1, 117, 226);
+    border: 1px solid rgb(233, 233, 233);
+  }
+
+  .user-table-header button:hover {
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    background-color: rgb(1, 117, 226);
+    border: 1px solid rgb(233, 233, 233);
+  }
+
+  .delete-user {
+    color:  rgb(1, 117, 226);
+    font-size: 35px;
+    background-color: transparent;
+  }
+
+  .department-list li {
+    list-style: none;
+    font-size: 21px;
+    margin-top: 1em;
+    background-color: #159dff;
+  }
+
+  .department-list button {
+    background-color: #159dff;
+  }
+
+  .sidebar-header {
+    margin-top: -3em;
+  }
+
+  .show-button {
+    font-size: 18px;
+    border-radius: 7px;
+    height: 2em;
+    color: rgb(242, 242, 242);
+    margin-top: 1em;
+    background-color: rgb(1, 117, 226);
+  }
+
+  .close-sidebar {
+    background-color: #159dff;
+  }
+
+  .pagination-item {
+    margin: 5px; 
+  }
+  
+ 
+  .pagination-previous,
+  .pagination-next {
+    margin: 5px;
+  }
+
