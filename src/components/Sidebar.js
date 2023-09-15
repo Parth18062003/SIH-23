@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 
 function Sidebar({ isSidebarVisible, toggleSidebar, onDepartmentClick }) {
   const departmentOptions = [
-    { value: 'Central Public Works Department (CPWD)', label: 'Central Public Works Department (CPWD)', subDepartments: ['NBCC (India) Limited', 'Housing and Urban Development Corporation Limited', 'National Capital Region Transport Corporation'] },
+    { value: 'Central Public Works Department (CPWD)', label: 'Central Public Works', subDepartments: ['NBCC (India) Limited', 'Housing and Urban Development Corporation Limited', 'National Capital Region Transport Corporation'] },
     { value: 'Directorate of Estates', label: 'Directorate of Estates', subDepartments: ['d', 'e', 'f'] },
     { value: 'Land & Development Office', label: 'Land & Development Office', subDepartments: ['x', 'y', 'z'] },
   ];

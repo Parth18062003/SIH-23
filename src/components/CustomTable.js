@@ -179,7 +179,7 @@ function CustomTable({ isSidebarVisible, selectedDepartment}) {
         <h2 className='text-center mt-5'>No users found</h2>
       ) : (
         <Table striped bordered hover style={{ height: 'calc(100vh - 220px)', overflow: 'auto' }}>
-          <thead style={{ fontSize: !isMobileView ? '21px' : '16.5px' }}>
+          <thead style={{ fontSize: !isMobileView ? '18px' : '15px' }}>
             <tr>
               <th style={{ width: '5%' }}>#</th>
               <th style={{ width: '20%' }}>Name</th>
@@ -191,7 +191,7 @@ function CustomTable({ isSidebarVisible, selectedDepartment}) {
           </thead>
           <tbody>
             {currentUsers.map((data, index) => (
-              <tr key={index} style={{ fontSize: window.innerWidth >= 768 ? '18px' : '16px' }}>
+              <tr key={index} style={{ fontSize: window.innerWidth >= 768 ? '16px' : '14px' , fontWeight:'500'}}>
                 <td>{startId + index}</td>
                 <td>{data.name}</td>
                 <td>{data.department?.value}</td>
